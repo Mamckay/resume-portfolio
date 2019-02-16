@@ -1,0 +1,52 @@
+body{
+    background-size: cover;
+    background-image: url("../mountain.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.nav-container{
+    width:100%;
+    background-color: rgba(0, 100, 67, 0.733);
+    padding: 20px;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.shadow{
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.quote{
+    display:flex;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+/* 
+.nav span{
+    display:flex;
+    justify-content: center;
+}
+.nav a{
+    display:flex;
+    justify-content: center;
+} */
