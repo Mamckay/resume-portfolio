@@ -1,30 +1,34 @@
-body{
+.landing-div{
     background-size: cover;
-    background-image: url("../mountain.jpg");
+    background-image: url("../assets/landingbackground.png");
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-.nav-container{
-    width:100%;
-    background-color: rgba(0, 100, 67, 0.733);
-    padding: 20px;
-}
-.nav{
-    display:flex;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+#portfolio-div{
+    background: rgb(66, 66, 66);
+    min-height: 100vh;
 }
 
-.shadow{
-    font-size: 30px;
-    color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
+.nav-container{
+    width:100%;
+    /* border: solid 3px;
+    border-color: black; */
+    padding: 20px;
+}
+
+.custom-hr{
+    width: 80%;
+    background-color: white;
+    height: 7px;
+    border-radius: 50%;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .quote{
@@ -41,12 +45,117 @@ body{
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
-/* 
-.nav span{
+.shadow{
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+.portfolio-img{
+    width: 500px;
+    max-height: 300px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-container{
+    background-color: #333;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container span{
+    padding: 2vh;
+    color:white;
+    font-size: 30px;
+}
+
+
+.trapezium {
+    padding-top: 5vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    background:white;
+    border-bottom: 100px solid rgb(51, 51, 51);
+    border-left: 35vh solid transparent;
+    border-right: 35vh solid transparent;
+    height: 90vh;
+}
+
+.portfolio-card{
+    margin: 5vh;
+    padding: 2vh;
+}
+
+.portfolio-container{
+    display:flex;
+    justify-content: space-evenly;  
+    flex-wrap: wrap;
+}
+
+.portfolio-container div h2{
+    margin-top:3vh;
+    color:white;
+    font-size: 30px;
     display:flex;
     justify-content: center;
 }
-.nav a{
-    display:flex;
+
+.dark-wrapper{
+    box-shadow: 1px 1px 15px 5px black;
+}
+
+.light-wrapper{
+    box-shadow: 1px 1px 15px 5px white;
+}
+
+.landing-pic{
+    margin-top:5vh;
+    width: 25vh;
+    max-height:30vh;
+    border-radius: 70%;
+}
+
+.portfolio-link{
+    font-size: 30px;
+    color: white;
+}
+
+.contact-link{
+    font-size: 30px;
+    color: white;
+}
+
+.contact-img{
+    margin-top: 2vh;
+    width: 20vh;
+}
+
+.phone-string{
+    font-size: 20px;
+    color: white;
+    display: flex;
     justify-content: center;
-} */
+}
+
+.email-string{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
