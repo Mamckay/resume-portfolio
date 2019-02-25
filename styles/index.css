@@ -1,4 +1,4 @@
-.landing-div{
+#landing-div{
     background-size: cover;
     background-image: url("../assets/landingbackground.png");
     background-repeat: no-repeat;
@@ -55,8 +55,8 @@
     1px 1px 0 #000;  
 }
 .portfolio-img{
-    width: 500px;
-    max-height: 300px;
+    width: 30vw;
+    height: 30vh;
 }
 
 .container{
@@ -134,11 +134,24 @@
 .portfolio-link{
     font-size: 30px;
     color: white;
+    transition: 0.4s;
+}
+
+.portfolio-link:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+    box-shadow: 1px 1px 15px 5px white;
 }
 
 .contact-link{
     font-size: 30px;
     color: white;
+}
+
+.contact-link:hover{
+    cursor: pointer;
+    background-color: #333;
+    box-shadow: 1px 1px 15px 5px white;
 }
 
 .contact-img{
@@ -158,4 +171,25 @@
     color: white;
     display: flex;
     justify-content: center;
+}
+
+.arrow-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vh;
+    height: 10vh;
+    position: relative;
+    top: 6vh;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.arrow-link:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 15px 5px white;
+}
+
+.return:hover{
+    box-shadow: 1px 1px 15px 5px white;    
 }

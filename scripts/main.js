@@ -1,4 +1,4 @@
-const contactBody = `<div class='landing-div'>
+const contactBody = `<div id='landing-div'>
                         <div class='nav-container'>
                             <div class='nav shadow'>
                                 <a class='return'>Home</a>
@@ -28,7 +28,7 @@ const contactBody = `<div class='landing-div'>
                         </div>
                     </div>`;
 
-const pageBody = `<div class='landing-div'>
+const pageBody = `<div id='landing-div'>
                     <div class='nav-container'>
                         <div class='nav shadow'>
                             <a class='portfolio-link'>
@@ -51,6 +51,7 @@ const pageBody = `<div class='landing-div'>
                     </div>
                     </div>
                     <div id='portfolio-div'>
+                    <img class='arrow-link' src='./assets/arrow.png'></img>
                         <div class='portfolio-container'>
                             <div>
                                 <h2> Double Jump </h2>
@@ -85,8 +86,7 @@ const pageBody = `<div class='landing-div'>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class='footer-container'><a class='portfolio-link'>Portfolio</a><span> | </span><a class='contact-link'>Contact</a></div>`;
+                    </div>`;
 
 function setContact() {
     $('.insert').html(`${contactBody}`);
@@ -101,6 +101,13 @@ function setLanding() {
     $('.insert').html(`${pageBody}`);
     $('.portfolio-link').on('click', event => {
         document.getElementById('portfolio-div').scrollIntoView({
+            behavior: 'smooth'
+        });
+        event.preventDefault();
+    });
+
+    $('.arrow-link').on('click', event => {
+        document.getElementById('landing-div').scrollIntoView({
             behavior: 'smooth'
         });
         event.preventDefault();
