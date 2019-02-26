@@ -1,6 +1,6 @@
 #landing-div{
     background-size: cover;
-    background-image: url("../assets/landingbackground.png");
+    background-image: url("../assets/background.png");
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -135,22 +135,24 @@
     font-size: 30px;
     color: white;
     transition: 0.4s;
+    padding: 1vh;
+    border-radius: 5px;
 }
 
 .portfolio-link:hover{
     cursor: pointer;
-    background-color: dodgerblue;
     box-shadow: 1px 1px 15px 5px white;
 }
 
 .contact-link{
     font-size: 30px;
     color: white;
+    padding: 1vh;
+    border-radius: 5px;
 }
 
 .contact-link:hover{
     cursor: pointer;
-    background-color: #333;
     box-shadow: 1px 1px 15px 5px white;
 }
 
