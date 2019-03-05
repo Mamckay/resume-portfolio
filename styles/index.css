@@ -1,6 +1,6 @@
 #landing-div{
     background-size: cover;
-    background-image: url("../assets/background.png");
+    background-image: url("../assets/backgs.png");
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -117,7 +117,7 @@
 }
 
 .dark-wrapper{
-    box-shadow: 1px 1px 15px 5px black;
+    box-shadow: 1px 1px 15px 2px black;
 }
 
 .light-wrapper{
@@ -126,9 +126,8 @@
 
 .landing-pic{
     margin-top:5vh;
-    width: 25vh;
-    max-height:30vh;
-    border-radius: 70%;
+    width: 35vh;
+    height:35vh;
 }
 
 .portfolio-link{
