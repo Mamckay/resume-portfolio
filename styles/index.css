@@ -87,6 +87,10 @@ text color grey: 898989
     transition: 0.3s    
 }
 
+a{
+    text-decoration: none;
+}
+
 .github:hover{
     cursor: pointer;
     color:white;
