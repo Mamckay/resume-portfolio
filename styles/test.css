@@ -42,7 +42,7 @@ text color grey: 898989
 
 .title{
     color: #00aeb3;
-    font-size: 40px;
+    font-size: 4vw;
     text-align: center;
     margin-bottom: 4vh;
     margin-top: 1vh;
@@ -50,9 +50,15 @@ text color grey: 898989
 
 .text{
     color: white;
-    font-size: 3em;
+    font-size: 3vw;
     text-align: center;
     margin-bottom: 4vh; 
+}
+
+@media only screen and (max-width: 600px) {
+    .text{
+    font-size: 5vw;
+    }
 }
 
 .landing-text{
@@ -99,7 +105,14 @@ text color grey: 898989
     color: #00aeb3;
     font-size: 20px;
     text-align: center;
-    margin-bottom: 4vh;    
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    transition: 0.3s    
+}
+
+.github:hover{
+    cursor: pointer;
+    color:white;
 }
 
 .portfolio-img{
@@ -107,10 +120,24 @@ text color grey: 898989
 }
 
 .hr-custom{
-    width: 150px;
+    width: 20vw;
     position: relative;
-    top: 2vh;
+    top: 2vw;
     border-color: #00aeb3;
+}
+
+.left{
+    margin-left: 10%;
+}
+
+.right{
+    margin-right: 10%;    
+}
+
+@media only screen and (max-width: 500px) {
+    .text{
+        top: 1vw;
+    }
 }
 
 .my-img{
@@ -120,4 +147,10 @@ text color grey: 898989
     border-radius: 50%;
     border: 2px solid #7fd6d9;
 
+}
+
+.contact-img{
+    margin: 3vh;
+    padding: 1vh;
+    width: 5vw;
 }
