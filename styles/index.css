@@ -1,10 +1,17 @@
+
+/*
+Color Schema
+
+light blue: 7fd6d9
+blue: 00aeb3
+dark grey: 373d42
+light grey: 606a70
+title color grey: 414042
+text color grey: 898989
+*/
+
 .background{
     background-color: #373d42;
-}
-
-.landing{
-    background-color: #606a70;
-    height: 100vh;
 }
 
 .portfolio{
@@ -14,26 +21,9 @@
     border: 2px solid #7fd6d9;
 }
 
-/* 
-light blue: 7fd6d9
-blue: 00aeb3
-dark grey: 373d42
-light grey: 606a70
-title color grey: 414042
-text color grey: 898989
-*/
-.footer{
-    background-color: #373d42;
-}
-
 .parallax {
-    /* The image used */
-    background-image: url("../assets/tryme.jpg");
-  
-    /* Set a specific height */
+    background-image: url("../assets/background.jpg");
     min-height: 100vh; 
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,19 +58,6 @@ text color grey: 898989
     border: 2px solid #7fd6d9;
     
 }
-/* 
-.landing-text{
-    color: white;
-    font-size: 4em;
-    text-align: center;
-    margin-bottom: 4vh; 
-    text-shadow:
-    -1px -1px 0 #00aeb3,
-    1px -1px 0 #00aeb3,
-    -1px 1px 0 #00aeb3,
-    1px 1px 0 #00aeb3;  
-} */
-
 
 .flex-justify-center{
     display: flex;
@@ -116,6 +93,11 @@ text color grey: 898989
 }
 
 .portfolio-img{
+    width: 33vw;
+}
+
+.portfolio-img:hover{
+    cursor: pointer;
     width: 33vw;
 }
 
