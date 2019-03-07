@@ -10,6 +10,21 @@ title color grey: 414042
 text color grey: 898989
 */
 
+#portfolio-station{
+
+}
+
+.portfolio-title{
+    padding: 1vh;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top:5vh;
+    border: 4px solid #00aeb3;
+    color: #00aeb3;
+    font-family: 'Permanent Marker', cursive;
+}
+
 .portfolio-button:hover{
     border: 4px solid #fff;
     color: #fff;
@@ -83,7 +98,7 @@ button{
 
 .secondary-title{
     color: #e4f500;
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
     margin-bottom: 2vh;
     margin-top: 1vh;
@@ -146,12 +161,11 @@ a{
 }
 
 .portfolio-img{
-    width: 33vw;
+    width: 45vw;
 }
 
 .portfolio-img:hover{
     cursor: pointer;
-    width: 33vw;
 }
 
 .hr-custom{
@@ -223,7 +237,7 @@ a{
     }
 
     .secondary-title{
-        color: #00aeb3;
+        color: #e4f500;
         font-size: 5vw;
         text-align: center;
         margin-bottom: 2vh;
