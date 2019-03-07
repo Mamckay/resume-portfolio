@@ -10,18 +10,60 @@ title color grey: 414042
 text color grey: 898989
 */
 
+.portfolio-button:hover{
+    border: 4px solid #fff;
+    color: #fff;
+
+}
+
+.icon{
+    height: 90px;
+}
+
+.portfolio-button{
+    margin: 1vh;
+    width: 70%;
+    max-width: 250px;
+    border: 4px solid #00aeb3;
+    color: #00aeb3;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button{
+    font-family: acre,sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 4px solid #00aeb3;
+    color: #00aeb3;
+    font-size: 30px;
+    transition-duration: .5s;
+}
+
 .background{
     background-color: #373d42;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #373d42;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    border-bottom: 4px solid #00aeb3;
 }
 
 .portfolio{
     padding: 3%;
     margin: 5% 15% 5% 15%;
-    background-color: #606a70;
     border: 2px solid #7fd6d9;
 }
 
 .parallax {
+    margin-top: 80px;
     background-image: url("../assets/background.jpg");
     min-height: 100vh; 
     background-attachment: fixed;
@@ -39,18 +81,21 @@ text color grey: 898989
     font-family: 'Permanent Marker', cursive;
 }
 
-.text{
-    color: white;
+.secondary-title{
+    color: #e4f500;
     font-size: 3vw;
     text-align: center;
-    margin-bottom: 4vh; 
+    margin-bottom: 2vh;
+    margin-top: 1vh;
     font-family: 'Permanent Marker', cursive;
 }
 
-@media only screen and (max-width: 600px) {
-    .text{
-    font-size: 5vw;
-    }
+.text{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 4vh; 
+    font-family: 'Permanent Marker', cursive;
 }
 
 .landing-text{
@@ -63,6 +108,10 @@ text color grey: 898989
 .flex-justify-center{
     display: flex;
     justify-content: center;    
+}
+
+.inline-flex{
+    display: inline-flex;
 }
 
 .flex-align-center{
@@ -81,7 +130,7 @@ text color grey: 898989
 
 .github{
     color: #00aeb3;
-    font-size: 20px;
+    font-size: 3vw;
     text-align: center;
     transition: 0.3s;
     font-family: 'Permanent Marker', cursive;
@@ -108,7 +157,6 @@ a{
 .hr-custom{
     width: 20vw;
     position: relative;
-    top: 2vw;
     border-color: #00aeb3;
 }
 
@@ -129,7 +177,7 @@ a{
 .my-img{
     margin-top: 2em;
     margin-bottom: 2em;
-    width: 20em;
+    width: 25vw;
     border-radius: 50%;
     border: 2px solid #7fd6d9;
 
@@ -152,5 +200,34 @@ a{
         margin-right:1.5vh;
         margin-bottom:0;
         width: 3em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .my-img{
+        width: 50vw;
+    }
+
+    .title{
+        color: #00aeb3;
+        font-size: 6vw;
+        text-align: center;
+        margin-bottom: 4vh;
+        margin-top: 1vh;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    .text{
+    font-size: 5vw;
+    }
+
+    .secondary-title{
+        color: #00aeb3;
+        font-size: 5vw;
+        text-align: center;
+        margin-bottom: 2vh;
+        margin-top: 1vh;
+        font-family: 'Permanent Marker', cursive;
     }
 }
