@@ -194,7 +194,6 @@ a{
     margin-top: 2em;
     margin-bottom: 2em;
     width: 25vw;
-    border-radius: 50%;
     border: 2px solid #7fd6d9;
 
 }
@@ -220,7 +219,18 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
-    
+    .github{
+        font-size: 3vw;
+    }
+
+    button{
+        font-size: 3vw;
+    }
+
+    .portfolio-button{
+        width: 30%;
+    }
+
     .my-img{
         width: 50vw;
     }
