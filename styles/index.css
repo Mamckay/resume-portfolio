@@ -15,6 +15,7 @@ text color grey: 898989
 }
 
 .portfolio-title{
+    font-size: 3vw;
     padding: 1vh;
     text-align: center;
     margin-left: 15%;
@@ -89,7 +90,7 @@ button{
 
 .title{
     color: #00aeb3;
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     margin-bottom: 4vh;
     margin-top: 1vh;
@@ -145,7 +146,7 @@ button{
 
 .github{
     color: #00aeb3;
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
     transition: 0.3s;
     font-family: 'Permanent Marker', cursive;
