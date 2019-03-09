@@ -14,6 +14,10 @@ text color grey: 898989
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .portfolio-title{
     font-size: 3vw;
     padding: 1vh;
