@@ -46,7 +46,7 @@ html{
     max-width: 250px;
     border: 4px solid #00aeb3;
     color: #00aeb3;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 button{
@@ -76,9 +76,18 @@ button{
     border-bottom: 4px solid #00aeb3;
 }
 
+.alpha-img{
+    width: 30vw;
+}
+
+.spacer{
+    margin-right: 3vw;
+}
+
 .portfolio{
+    display:flex;
     padding: 3%;
-    margin: 5% 15% 5% 15%;
+    margin: 5% 5% 5% 5%;
     border: 2px solid #7fd6d9;
 }
 
@@ -98,7 +107,7 @@ button{
     text-align: center;
     margin-bottom: 4vh;
     margin-top: 1vh;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Josefin Sans Semibold', sans-serif;
 }
 
 .secondary-title{
@@ -107,7 +116,7 @@ button{
     text-align: center;
     margin-bottom: 2vh;
     margin-top: 1vh;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Josefin Sans Semibold', sans-serif;
 }
 
 .text{
@@ -115,7 +124,7 @@ button{
     font-size: 2vw;
     text-align: center;
     margin-bottom: 4vh; 
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 .landing-text{
@@ -153,7 +162,7 @@ button{
     font-size: 2vw;
     text-align: center;
     transition: 0.3s;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Josefin Sans Semibold', sans-serif;
 }
 
 a{
@@ -199,7 +208,7 @@ a{
     margin-bottom: 2em;
     width: 25vw;
     border: 2px solid #7fd6d9;
-
+    background-color: transparent;
 }
 
 .contact-img{
@@ -222,7 +231,11 @@ a{
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
+    .portfolio{
+        display:block;
+    }
+    
     .github{
         font-size: 3vw;
     }

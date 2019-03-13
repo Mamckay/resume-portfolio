@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css" />
     <link rel="icon" type="image/png" href="./assets/icon-small.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
 </head>
 <body>
     <main class='background'>
@@ -38,8 +39,8 @@
         </div>
         <div class="portfolio-title">PORTFOLIO</div>
         <div class='portfolio'>
-            <div class='flex-align-center column'>
-                <h2 class='title inline-flex'><hr class='hr-custom right'>Helpful<hr class='hr-custom left'></h2>
+            <div class='flex-align-center column spacer'>
+                <h2 class='title inline-flex'>Helpful</h2>
                 <a id='portfolio-station' target=“_blank” href="https://helpful-client.herokuapp.com/">
                     <img class='portfolio-img' src='./assets/Helpful.PNG'>
                 </a>
@@ -53,8 +54,8 @@
                 <span class='secondary-title'>APIs: </span>
                 <span class='text'>Google Maps API</span>
             </div>
-            <div class='flex-align-center column'>
-                <h2 class='title inline-flex'><hr class='hr-custom right'>Double Jump<hr class='hr-custom left'></h2>
+            <div class='flex-align-center column spacer'>
+                <h2 class='title inline-flex'>Double Jump</h2>
                 <a  target=“_blank” href="https://doublejumps.herokuapp.com/">
                     <img class='portfolio-img' src='./assets/Doublejump.PNG'>
                 </a>
@@ -67,7 +68,7 @@
                 <span class='text'>Mongodb, Node.js, React, Express, Passport, Mocha/Chai</span>
             </div>
             <div class='flex-align-center column'>
-                <h2 class='title inline-flex'><hr class='hr-custom right'>Coming Soon<hr class='hr-custom left'></h2>
+                <h2 class='title inline-flex'>Coming Soon</h2>
                 <a  target=“_blank” href='#'>
                     <img class='portfolio-img' src='./assets/comingsoon.jpg'>
                 </a>
@@ -82,6 +83,7 @@
                 <span class='text'>Google Maps API</span>
             </div>
         </div>
+        <img class='alpha-img' src='./assets/alphalayerme.jpg'>
         <div class='footer flex-align-center'>
         </div>
     </main>
@@ -91,13 +93,6 @@
         setup();
     </script>
     <script>
-        $(document).ready(function () {
-            $('.portfolio-button').on('click', event => {
-                window.scrollTo(0, window.screen.height);
-                event.preventDefault();
-            });
-        });
-
         enterView({
             selector: '.flex-align-center',
             enter: function(el) {
