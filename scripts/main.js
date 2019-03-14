@@ -16,8 +16,12 @@ function setup() {
                     event.preventDefault();
                 }
                 else if (document.getElementById('portfolio-button').value === 'portfolio') {
-                    window.scrollTo(0, window.screen.availHeight - 100);
+                    window.scrollTo(0, $('.portfolio-title').position().top - 100);
                     event.preventDefault();
+                    $
+                    // document.getElementById('portfolio-station').scrollIntoView({
+                    //     behavior: 'smooth'
+                    // });
                 }
                 else if (document.getElementById('portfolio-button').value === 'home') {
                     window.scrollTo(0, 0);
