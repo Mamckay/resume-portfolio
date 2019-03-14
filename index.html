@@ -10,18 +10,24 @@
     <link rel="stylesheet" type="text/css" href="styles/index.css" />
     <link rel="icon" type="image/png" href="./assets/icon-small.jpg">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
     <main class='background'>
         <div class='navbar'>
             <img class='icon' src='./assets/icon-large.PNG'>
-            <button class='portfolio-button'>portfolio</button>
+            <select value="Navigate" name="Navigator" id='portfolio-button' >
+                <option value="home">Home</option>
+                <option value="skills">Skills</option>
+                <option value="portfolio">Portfolio</option>
+            </select>
+            <!-- <button class='portfolio-button'>Portfolio</button> -->
         </div>
-        <div class='parallax'>
+        <section class='parallax'>
             <div class='flex-align-center column'>
-                <img class='my-img' src='./assets/square.png'>
+                <img class='my-img' src='./assets/alphalayerme.jpg'>
                 <p class='text landing-text'>Hello, My name is Michael and I'm a software developer in Colorado. I love to code and chat with great people. Shoot me an email if you want to talk.</p>
-                <div>
+                <!-- <div class='contact-container'>
                     <a  target=“_blank” href="https://github.com/Mamckay">
                         <img class='contact-img' src='./assets/Github.png'>
                     </a>
@@ -34,56 +40,115 @@
                     <a  target=“_blank” href="./assets/Resume.pdf">
                         <img class='contact-img' src='./assets/resume-icon.png'>
                     </a>
-                </div>
+                </div> -->
             </div>    
-        </div>
-        <div class="portfolio-title">PORTFOLIO</div>
-        <div class='portfolio'>
-            <div class='flex-align-center column spacer'>
+        </section>
+        <h2 class="portfolio-title">Skills</h2>
+        <section class='portfolio'>
+            <ul class='skills'>
+                <div>
+                    <h3 class='secondary-title'>Front-End</h3>
+                    <ul class='text'>
+                        <li><i class="fab fa-js"></i> Javascript</li>
+                        <li><i class="fab fa-react"></i> React</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fab fa-angular"></i> Angular 6</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class='secondary-title'>Back-End</h3>
+                    <ul class='text'>
+                            <li><i class="fas fa-database"></i> Mongodb</li>
+                            <li><i class="fas fa-database"></i> SQL</li>
+                            <li><i class="fas fa-database"></i> Socket.io</li>
+                            <li><i class="fas fa-key"></i> JWT</li>
+                            <li><i class="fas fa-keyboard"></i> Express</li>
+                            <li><i class="fas fa-key"></i> Passport</li>
+                            <li><i class="fab fa-node"></i> Node.js</li>
+                            <li><i class="fab fa-google"></i> Golang</li>
+                        </ul>
+                </div>
+                <div>
+                    <h3 class='secondary-title'>Testing/Other</h3>
+                    <ul class='text'>
+                            <li><i class="fab fa-accessible-icon"></i> Accessibility</li>
+                            <li><i class="fas fa-vial"></i> Enzyme/Jest</li>
+                            <li><i class="fas fa-vial"></i> Mocha/Chai</li>
+                            <li><i class="fas fa-vial"></i> Golang *testing.a</li>
+                            <li><i class="fas fa-tv"></i> OpenCV</li>
+                        </ul>
+                </div>
+            </ul>
+        </section>
+        <h2 class="portfolio-title">PORTFOLIO</h2>
+        <ul class='portfolio'>
+            <li class='flex-align-center column spacer'>
                 <h2 class='title inline-flex'>Helpful</h2>
-                <a id='portfolio-station' target=“_blank” href="https://helpful-client.herokuapp.com/">
+                <a  target=“_blank” href="https://helpful-client.herokuapp.com/">
                     <img class='portfolio-img' src='./assets/Helpful.PNG'>
                 </a>
-                <a  target=“_blank” href="https://github.com/thinkful-ei26/Helpful-Client">
-                    <span class='github'>View the Source Code</span>
+                <a  target=“_blank” href="https://helpful-client.herokuapp.com/">
+                    <button class='project-button'>Live</button>
                 </a>
-                <span class='secondary-title'>What it does:</span>
+                
+                <a  target=“_blank” href="https://github.com/Mamckay/Helpful-Client"></a>
+                    <button class='project-button'>Source</button>
+                </a>
+                
+                <h3 class='secondary-title'>What it does:</h3>
                 <p class='text'> Helpful is a platform for volunteer organizations and volunteers to connect, create and grow.</p>
-                <span class='secondary-title'>Tech Stack: </span>
+                <h3 class='secondary-title'>Tech Stack: </h3>
                 <span class='text'>Node.js, React, React Hooks, Express, Passport, Mocha/Chai, Mogodb, Enzyme/Jest</span>
-                <span class='secondary-title'>APIs: </span>
+                <h3 class='secondary-title'>APIs: </h3>
                 <span class='text'>Google Maps API</span>
-            </div>
-            <div class='flex-align-center column spacer'>
+            </li>
+            <li class='flex-align-center column spacer'>
                 <h2 class='title inline-flex'>Double Jump</h2>
                 <a  target=“_blank” href="https://doublejumps.herokuapp.com/">
                     <img class='portfolio-img' src='./assets/Doublejump.PNG'>
                 </a>
-                <a  target=“_blank” href="https://github.com/Mamckay/DoubleJump-Client">
-                    <span class='github'>View the Source Code</span>
+                <a  target=“_blank” href="https://doublejumps.herokuapp.com/">
+                    <button class='project-button'>Live</button>
                 </a>
-                <span class='secondary-title'>What it does:</span>
+                <a  target=“_blank” href="https://github.com/Mamckay/Michael-DoubleJump">
+                    <button class='project-button'>Source</button>
+                </a>
+                <h3 class='secondary-title'>What it does:</h3>
                 <p class='text'> An E-commerce marketplace for elecronic and accesories. Uses stripe for payment processing.</p>
-                <span class='secondary-title'>Tech Stack: </span>
+                <h3 class='secondary-title'>Tech Stack: </h3>
                 <span class='text'>Mongodb, Node.js, React, Express, Passport, Mocha/Chai</span>
-            </div>
-            <div class='flex-align-center column'>
+            </li>
+            <li class='flex-align-center column'>
                 <h2 class='title inline-flex'>Watchdog</h2>
                 <a  target=“_blank” href='#'>
                     <img class='portfolio-img' src='./assets/Watchdog.PNG'>
+                </a> 
+                <a  target=“_blank” href='#'>
+                    <button class='project-button'>Video</button>
                 </a>
                 <a  target=“_blank” href='#'>
-                    <span class='github'>View the Source Code</span>
+                    <button class='project-button'>Source</button>
                 </a>
-                <span class='secondary-title'>What it does:</span>
+                <h3 class='secondary-title'>What it does:</h3>
                 <p class='text'> Setup up your own cctv home network with Node! Watchdog is a home defense system for Node enthusiasts.</p>
-                <span class='secondary-title'>Tech Stack: </span>
+                <h3 class='secondary-title'>Tech Stack: </h3>
                 <span class='text'>Node.js, Express, Opencv, Http-server</span>
-            </div>
-        </div>
-        <img class='alpha-img' src='./assets/alphalayerme.jpg'>
-        <div class='footer flex-align-center'>
-        </div>
+            </li>
+        </ul>
+        <section id='footer'>
+                <a  target=“_blank” href="https://github.com/Mamckay">
+                    <img class='footer-img' src='./assets/Github.png'>
+                </a>
+                <a  target=“_blank” href="mailto:mamckay89@gmail.com">
+                    <img class='footer-img' src='./assets/email-icon.png'>
+                </a>
+                <a  target=“_blank” href="https://www.linkedin.com/in/michaelcmckay/">
+                    <img class='footer-img' src='./assets/linkedin.png'>
+                </a>
+                <a  target=“_blank” href="./assets/Resume.pdf">
+                    <img class='footer-img' src='./assets/resume-icon.png'>
+                </a>
+        </section>
     </main>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src='./scripts/enter-view.js'></script>
@@ -97,6 +162,17 @@
                 el.classList.add('fade-in-fwd')
             }
         })
+
+        // var prevScrollpos = window.pageYOffset;
+        // window.onscroll = function() {
+        // var currentScrollPos = window.pageYOffset;
+        // if (currentScrollPos > window.screen.height) {
+        //     document.getElementById("footer").style.bottom = "0";
+        // } else {
+        //     document.getElementById("footer").style.bottom = `-${document.getElementById('footer').offsetHeight}px`;
+        // }
+        // prevScrollpos = currentScrollPos;
+        // }
     </script> 
 </body>
 </html>
