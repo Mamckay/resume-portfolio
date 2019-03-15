@@ -15,8 +15,8 @@
 <body>
     <main class='background'>
         <div class='navbar'>
-            <img class='icon' src='./assets/icon-large.PNG'>
-            <select value="Navigate" name="Navigator" id='portfolio-button' >
+            <img alt='icon' class='icon' src='./assets/icon-large.PNG'>
+            <select aria-label="Navigator" value="Navigate" name="Navigator" id='portfolio-button' >
                 <option value="home">Home</option>
                 <option value="skills">Skills</option>
                 <option value="portfolio">Portfolio</option>
@@ -25,8 +25,9 @@
         </div>
         <section class='parallax'>
             <div class='flex-align-center column'>
-                <img class='my-img' src='./assets/alphalayerme.jpg'>
-                <p class='text landing-text'>Hello, My name is Michael and I'm a software developer in Colorado. I love to code and chat with great people. Shoot me an email if you want to talk.</p>
+                <h1 class='hidden-title'>About me</h1>
+                <img alt='My picture' class='my-img' src='./assets/square.png'>
+                <p class='text landing-text'>Hello, My name is Michael and I’m a software engineer located in Colorado.  I love to code and chat with other coders. In my free time I like to run with my dog Max, code things, and play video games.  I am looking for a team to join and give my enthusiasm to. I believe in a life long learning mentality and I am passionate about being on the cutting edge of tech. If you are in the market for someone with my skills feel free to contact me.</p>
                 <!-- <div class='contact-container'>
                     <a  target=“_blank” href="https://github.com/Mamckay">
                         <img class='contact-img' src='./assets/Github.png'>
@@ -46,7 +47,7 @@
         <h2 class="skills-title">Skills</h2>
         <section class='portfolio'>
             <ul class='skills'>
-                <div>
+                <li>
                     <h3 class='secondary-title'>Front-End</h3>
                     <ul class='text'>
                         <li><i class="fab fa-js"></i> Javascript</li>
@@ -54,8 +55,8 @@
                         <li><i class="fab fa-python"></i> Python</li>
                         <li><i class="fab fa-angular"></i> Angular 6</li>
                     </ul>
-                </div>
-                <div>
+                </li>
+                <li>
                     <h3 class='secondary-title'>Back-End</h3>
                     <ul class='text'>
                             <li><i class="fas fa-database"></i> Mongodb</li>
@@ -67,8 +68,8 @@
                             <li><i class="fab fa-node"></i> Node.js</li>
                             <li><i class="fab fa-google"></i> Golang</li>
                         </ul>
-                </div>
-                <div>
+                    </li>
+                <li>
                     <h3 class='secondary-title'>Testing/Other</h3>
                     <ul class='text'>
                             <li><i class="fab fa-accessible-icon"></i> Accessibility</li>
@@ -77,21 +78,21 @@
                             <li><i class="fas fa-vial"></i> Golang *testing.a</li>
                             <li><i class="fas fa-tv"></i> OpenCV</li>
                         </ul>
-                </div>
+                    </li>
             </ul>
         </section>
         <h2 id='portfolio-station' class="portfolio-title">PORTFOLIO</h2>
         <ul class='portfolio'>
             <li class='flex-align-center column spacer'>
                 <h2 class='title inline-flex'>Helpful</h2>
-                <a  target=“_blank” href="https://helpful-client.herokuapp.com/">
-                    <img class='portfolio-img' src='./assets/Helpful.PNG'>
+                <a aria-label="View live app for Helpful" target=“_blank” href="https://helpful-client.herokuapp.com/"></a>
+                    <img alt='portfolio picture' class='portfolio-img' src='./assets/Helpful.PNG'>
                 </a>
-                <a  target=“_blank” href="https://helpful-client.herokuapp.com/">
+                <a aria-label="View live app for Helpful" target=“_blank” href="https://helpful-client.herokuapp.com/">
                     <button class='project-button'>Live</button>
                 </a>
                 
-                <a  target=“_blank” href="https://github.com/Mamckay/Helpful-Client"></a>
+                <a aria-label="View source code for Helpful" target=“_blank” href="https://github.com/Mamckay/Helpful-Client"></a>
                     <button class='project-button'>Source</button>
                 </a>
                 
@@ -104,13 +105,13 @@
             </li>
             <li class='flex-align-center column spacer'>
                 <h2 class='title inline-flex'>Double Jump</h2>
-                <a  target=“_blank” href="https://doublejumps.herokuapp.com/">
-                    <img class='portfolio-img' src='./assets/Doublejump.PNG'>
+                <a aria-label="View live app for Double Jump" target=“_blank” href="https://doublejumps.herokuapp.com/">
+                    <img alt='portfolio picture' class='portfolio-img' src='./assets/Doublejump.PNG'>
                 </a>
-                <a  target=“_blank” href="https://doublejumps.herokuapp.com/">
+                <a aria-label="View live app for Double Jump" target=“_blank” href="https://doublejumps.herokuapp.com/">
                     <button class='project-button'>Live</button>
                 </a>
-                <a  target=“_blank” href="https://github.com/Mamckay/Michael-DoubleJump">
+                <a aria-label="View source code for Double Jump" target=“_blank” href="https://github.com/Mamckay/Michael-DoubleJump">
                     <button class='project-button'>Source</button>
                 </a>
                 <h3 class='secondary-title'>What it does:</h3>
@@ -120,13 +121,13 @@
             </li>
             <li class='flex-align-center column'>
                 <h2 class='title inline-flex'>Watchdog</h2>
-                <a  target=“_blank” href='#'>
-                    <img class='portfolio-img' src='./assets/Watchdog.PNG'>
+                <a aria-label="View a video on Watchdog" target=“_blank” href='#'>
+                    <img alt='portfolio picture' class='portfolio-img' src='./assets/Watchdog.PNG'>
                 </a> 
-                <a  target=“_blank” href='#'>
+                <a aria-label="View a video on Watchdog" target=“_blank” href='#'>
                     <button class='project-button'>Video</button>
                 </a>
-                <a  target=“_blank” href='#'>
+                <a aria-label="View source code for Watchdog" target=“_blank” href='#'>
                     <button class='project-button'>Source</button>
                 </a>
                 <h3 class='secondary-title'>What it does:</h3>
@@ -137,16 +138,16 @@
         </ul>
         <section id='footer'>
                 <a  target=“_blank” href="https://github.com/Mamckay">
-                    <img class='footer-img' src='./assets/Github.png'>
+                    <img alt='github' class='footer-img' src='./assets/Github.png'>
                 </a>
                 <a  target=“_blank” href="mailto:mamckay89@gmail.com">
-                    <img class='footer-img' src='./assets/email-icon.png'>
+                    <img alt='email' class='footer-img' src='./assets/email-icon.png'>
                 </a>
                 <a  target=“_blank” href="https://www.linkedin.com/in/michaelcmckay/">
-                    <img class='footer-img' src='./assets/linkedin.png'>
+                    <img alt='linkedin' class='footer-img' src='./assets/linkedin.png'>
                 </a>
                 <a  target=“_blank” href="./assets/Resume.pdf">
-                    <img class='footer-img' src='./assets/resume-icon.png'>
+                    <img alt='resume' class='footer-img' src='./assets/resume-icon.png'>
                 </a>
         </section>
     </main>

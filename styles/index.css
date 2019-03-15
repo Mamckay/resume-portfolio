@@ -253,6 +253,10 @@ a{
     border-color: #00aeb3;
 }
 
+.hidden-title{
+    display:none;
+}
+
 .left{
     margin-left: 10%;
 }
@@ -264,7 +268,7 @@ a{
 .my-img{
     margin-top: 2em;
     margin-bottom: 2em;
-    width: 25vw;
+    width: 20vw;
     border: 2px solid #7fd6d9;
     background-color: transparent;
 }
