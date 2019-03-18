@@ -141,7 +141,7 @@ button{
 }
 
 .spacer{
-    margin-right: 3vw;
+   padding: 2vw;
 }
 
 .portfolio{
@@ -244,7 +244,7 @@ a{
 }
 
 .portfolio-img{
-    width: 45vw;
+    width: 100%;
     transition: 0.7s;
 }
 
@@ -283,14 +283,17 @@ a{
 }
 
 @media only screen and (max-width: 500px) {
+    .icon{
+        
+    }
     .text{
         top: 1vw;
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    .contact-img{
-        width: 5em;
+@media only screen and (max-width: 1250px) {
+    .landing-text{
+        font-size:3vw;
     }
 }
 
@@ -304,6 +307,21 @@ a{
 }
 
 @media only screen and (max-width: 800px) {
+    .landing-text{
+        font-size: 6.5vw;
+    }
+    .project-button{
+        width: 40vw;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .skills-title{
+        font-size: 8vw;
+    }
+    .portfolio-title{
+        font-size: 8vw;
+    }
     .portfolio{
         display:block;
         margin: 5% 5% 20% 5%;
@@ -314,7 +332,7 @@ a{
     }
 
     button{
-        font-size: 3vw;
+        font-size: 8vw;
     }
 
     .portfolio-button{
@@ -327,26 +345,28 @@ a{
 
     .title{
         color: #00aeb3;
-        font-size: 6vw;
-        text-align: center;
-        margin-bottom: 4vh;
+        font-size: 10vw;
+        margin-bottom: 2vh;
         margin-top: 1vh;
-        font-family: 'Permanent Marker', cursive;
     }
 
     .text{
-    font-size: 5vw;
+    font-size: 7vw;
+    margin:0;
     }
 
     .secondary-title{
-        color: #e4f500;
-        font-size: 5vw;
-        text-align: center;
-        margin-bottom: 2vh;
-        margin-top: 1vh;
-        font-family: 'Permanent Marker', cursive;
+       font-size: 8vw;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .contact-img{
+        width: 5em;
+    }
+}
+
+
 
 
 
