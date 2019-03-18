@@ -12,11 +12,11 @@ function setup() {
                 console.log(document.getElementById('portfolio-button').value);
 
                 if (document.getElementById('portfolio-button').value === 'skills') {
-                    window.scrollTo(0, window.screen.height - 100);
+                    window.scrollTo(0, $('.skills-title').position().top - 50);
                     event.preventDefault();
                 }
                 else if (document.getElementById('portfolio-button').value === 'portfolio') {
-                    window.scrollTo(0, $('.portfolio-title').position().top - 100);
+                    window.scrollTo(0, $('.portfolio-title').position().top - 50);
                     event.preventDefault();
                     $
                     // document.getElementById('portfolio-station').scrollIntoView({
