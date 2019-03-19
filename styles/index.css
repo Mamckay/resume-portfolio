@@ -194,7 +194,7 @@ button{
 
 .landing-text{
     margin: 5% 5% 5% 5%;
-    max-width: 25vw;
+    width: 25vw;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: white;
@@ -330,7 +330,7 @@ a{
         background-image: url('../assets/background.jpg')
     }
     .landing-text{
-        max-width: 100%;
+        width: 100%;
         font-size: 4vw;
     }
     .landing-text h2{
