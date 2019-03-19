@@ -181,7 +181,7 @@ button{
 
 .text{
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     margin-bottom: 4vh; 
     font-family: 'Raleway', sans-serif;
@@ -358,7 +358,7 @@ a{
     }
 
     button{
-        font-size: 8vw;
+        font-size: 4vw;
     }
 
     .portfolio-button{
@@ -382,12 +382,12 @@ a{
     }
 
     .text{
-    font-size: 7vw;
+    font-size: 6vw;
     margin:0;
     }
 
     .secondary-title{
-       font-size: 8vw;
+       font-size: 7.5vw;
     }
 }
 
