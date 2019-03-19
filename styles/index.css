@@ -153,7 +153,7 @@ button{
 
 .parallax {
     margin-top: 80px;
-    background-image: url("../assets/background.jpg");
+    background-image: url("../assets/background2.jpg");
     min-height: 100vh; 
     background-attachment: fixed;
     background-position: center;
@@ -187,16 +187,26 @@ button{
     font-family: 'Raleway', sans-serif;
 }
 
+.landing-container{
+    display: flex;
+    justify-content: space-around;
+}
+
 .landing-text{
+    margin: 5% 5% 5% 5%;
+    max-width: 25vw;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: white;
-    font-size:1.75vw;
-    margin: 0 5% 0 5%;
+    font-size:1.25vw;
     padding: 1em;
     background-color: #606a70;
     opacity: 0.8;
     border: 2px solid #7fd6d9;
+}
+
+.landing-text h2{
+    font-size: 2vw;
 }
 
 .flex-justify-center{
@@ -270,11 +280,7 @@ a{
 }
 
 .my-img{
-    margin-top: 2em;
-    margin-bottom: 2em;
-    width: 20vw;
-    border: 2px solid #7fd6d9;
-    background-color: transparent;
+   display:none;
 }
 
 .contact-img{
@@ -291,11 +297,19 @@ a{
     }
 }
 
-@media only screen and (max-width: 1250px) {
+/* @media only screen and (max-width: 1250px) {
     .landing-text{
-        font-size:3vw;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        color: white;
+        font-size: 3vw;
+        margin: 0 5% 0 5%;
+        padding: 1em;
+        background-color: #606a70;
+        opacity: 0.8;
+        border: 2px solid #7fd6d9;
     }
-}
+} */
 
 @media only screen and (max-width: 550px) {
     .contact-img{
@@ -307,8 +321,20 @@ a{
 }
 
 @media only screen and (max-width: 800px) {
+    .landing-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .parallax{
+        background-image: url('../assets/background.jpg')
+    }
     .landing-text{
-        font-size: 6.5vw;
+        max-width: 100%;
+        font-size: 4vw;
+    }
+    .landing-text h2{
+        font-size: 5vw;
     }
     .project-button{
         width: 40vw;
@@ -340,7 +366,12 @@ a{
     }
 
     .my-img{
+        display: block;
         width: 50vw;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        border: 2px solid #7fd6d9;
+        background-color: transparent;
     }
 
     .title{
