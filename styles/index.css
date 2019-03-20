@@ -332,6 +332,10 @@ a{
 }
 
 @media only screen and (max-width: 800px) {
+    .text-left{
+        font-size: 5vw;
+        text-align: center;
+    }
     .landing-container{
         display: flex;
         flex-direction: column;
