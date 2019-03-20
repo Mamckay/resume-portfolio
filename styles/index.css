@@ -270,7 +270,7 @@ a{
 }
 
 .footer-img{
-    padding:2vh;
+    padding:2.5vh;
     width: 7em;
 }
 
@@ -365,7 +365,7 @@ a{
     }
     .portfolio{
         display:block;
-        margin: 5% 5% 25% 5%;
+        margin: 5% 5% 11vh 5%;
     }
     
     .github{
