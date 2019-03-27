@@ -164,8 +164,8 @@ button{
 
 .parallax {
     margin-top: 80px;
-    background-image: url("../assets/background2.jpg");
-    min-height: 100vh; 
+    background-image: url("../assets/background.jpg");
+    min-height: 90vh; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +213,6 @@ button{
     padding: 1em;
     background-color: #606a70;
     opacity: 0.8;
-    border: 2px solid #7fd6d9;
 }
 
 .landing-text h2{
@@ -291,12 +290,16 @@ a{
 }
 
 .my-img{
-   display:none;
+    height: 90vh;
 }
 
 .contact-img{
     margin: 3.5vh;
     width: 7em;
+}
+
+.pre{
+    display:none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -332,25 +335,6 @@ a{
 }
 
 @media only screen and (max-width: 800px) {
-    .text-left{
-        font-size: 5vw;
-        text-align: center;
-    }
-    .landing-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .parallax{
-        background-image: url('../assets/background.jpg')
-    }
-    .landing-text{
-        width: 100%;
-        font-size: 4vw;
-    }
-    .landing-text h2{
-        font-size: 5vw;
-    }
     .project-button{
         width: 40vw;
     }
@@ -380,14 +364,6 @@ a{
         width: 30%;
     }
 
-    .my-img{
-        display: block;
-        width: 50vw;
-        margin-top: 2em;
-        margin-bottom: 2em;
-        border: 2px solid #7fd6d9;
-        background-color: transparent;
-    }
 
     .title{
         color: #00aeb3;
@@ -403,6 +379,40 @@ a{
 
     .secondary-title{
        font-size: 7.5vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .text-left{
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .landing-text{
+        width: 100%;
+        font-size: 4vw;
+        margin: 0 5% 5% 5%;
+
+    }
+    .landing-text h2{
+        font-size: 5vw;
+    }
+    .my-img{
+        display: block;
+        height: 300px;
+        margin-top: 2em;
+        background-color: transparent;
+    }
+    .landing-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .post{
+        display:none;
+    }
+    .pre{
+        display:block;
     }
 }
 
