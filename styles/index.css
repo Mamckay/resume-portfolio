@@ -165,7 +165,7 @@ button{
 .parallax {
     margin-top: 80px;
     background-image: url("../assets/background.jpg");
-    min-height: 90vh; 
+    min-height: 1000px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -204,12 +204,11 @@ button{
 }
 
 .landing-text{
-    margin: 5% 5% 5% 5%;
-    width: 25vw;
+    margin: 0 5% 0 5%;
+    width: 30vw;
     font-family: 'Raleway', sans-serif;
-    text-align: center;
     color: white;
-    font-size:1.25vw;
+    font-size:1.5rem;
     padding: 1em;
     background-color: #606a70;
     opacity: 0.9;
@@ -290,7 +289,8 @@ a{
 }
 
 .my-img{
-    height: 90vh;
+    height: 1000px;
+    position: relative;
 }
 
 .contact-img{
