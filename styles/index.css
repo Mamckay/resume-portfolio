@@ -216,6 +216,7 @@ button{
 
 .landing-text h2{
     font-size: 2vw;
+    text-align:center;
 }
 
 .flex-justify-center{
@@ -253,6 +254,10 @@ button{
     font-family: 'Josefin Sans Semibold', sans-serif;
 }
 
+.hobbies{
+    text-align: center;
+}
+
 a{
     text-decoration: none;
 }
@@ -269,7 +274,7 @@ a{
 
 .footer-img{
     padding:2.5vh;
-    width: 7em;
+    width: 8rem;
 }
 
 .portfolio-img:hover{
@@ -382,20 +387,19 @@ a{
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1220px) {
     .text-left{
-        font-size: 5vw;
+        font-size: 3vw;
         text-align: center;
     }
 
     .landing-text{
         width: 100%;
-        font-size: 4vw;
         margin: 0 5% 5% 5%;
 
     }
     .landing-text h2{
-        font-size: 5vw;
+        font-size: 1.5rem;
     }
     .my-img{
         display: block;
