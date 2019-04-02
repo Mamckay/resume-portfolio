@@ -174,8 +174,7 @@ button{
 
 .parallax {
     margin-top: 80px;
-    background-image: url("../assets/background.jpg");
-    min-height: 1000px; 
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../assets/background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,19 +213,15 @@ button{
 }
 
 .landing-text{
-    margin: 0 5% 0 5%;
-    width: 30vw;
+    margin: 0 0 0 5%;
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size:1.5rem;
     padding: 1em;
-    background-color: #606a70;
-    opacity: 0.9;
 }
 
 .landing-text h2{
     font-size: 2vw;
-    text-align:center;
 }
 
 .flex-justify-center{
@@ -265,7 +260,9 @@ button{
 }
 
 .hobbies{
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20% 0 0;
 }
 
 a{
@@ -304,7 +301,7 @@ a{
 }
 
 .my-img{
-    height: 1000px;
+    height: 750px;
     position: relative;
 }
 
