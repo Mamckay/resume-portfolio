@@ -14,7 +14,7 @@
 </head>
 <body>
     <main class='background'>
-        <div class='navbar'>
+        <nav class='navbar'>
             <img alt='icon' class='icon' src='./assets/icon-large.PNG'>
             <select aria-label="Site navigation select menu. Select the section of the site you wish to jump to." value="home" name="Navigator" id='portfolio-button' >
                 <option aria-label='Home' value="home">Home</option>
@@ -22,7 +22,7 @@
                 <option aria-label='Portfolio' value="portfolio">Portfolio</option>
             </select>
             <!-- <button class='portfolio-button'>Portfolio</button> -->
-        </div>
+        </nav>
         <section class='parallax'>
             <div class='landing-container'>
                 <h1 class='hidden-title'>About me</h1>
@@ -60,7 +60,7 @@
             </div>    
         </section>
         <h2 class="skills-title">SKILLS</h2>
-        <section class='portfolio'>
+        <section class='skills-container'>
             <ul aria-label="Skills section" class='skills'>
                 <li>
                     <h3 class='secondary-title'>Front-End</h3>
@@ -103,12 +103,14 @@
                 <a aria-label="View live application for Helpful" target=“_blank” href="https://helpfull.herokuapp.com/"></a>
                     <img alt='portfolio picture' class='portfolio-img' src='./assets/Helpful.PNG'>
                 </a>
-                <a aria-label="View live application for Helpful" target=“_blank” href="https://helpfull.herokuapp.com/">
-                    <button class='project-button'>Live</button>
-                </a>
-                <a aria-label="View source code for Helpful" target=“_blank” href="https://github.com/Mamckay/Helpful-Client">
-                    <button class='project-button'>Source</button>
-                </a>
+                <div class='button-container'>
+                    <a aria-label="View live application for Helpful" target=“_blank” href="https://helpfull.herokuapp.com/">
+                        <button class='project-button'>Live</button>
+                    </a>
+                    <a aria-label="View source code for Helpful" target=“_blank” href="https://github.com/Mamckay/Helpful-Client">
+                        <button class='project-button'>Source</button>
+                    </a>
+                </div>
                 <h3 class='secondary-title'>What it does:</h3>
                 <p class='text'> Helpful is a platform for volunteer organizations and volunteers to connect, create and grow.</p>
                 <h3 class='secondary-title'>Tech Stack: </h3>
@@ -121,12 +123,14 @@
                 <a aria-label="View live application for Double Jump" target=“_blank” href="https://doublejumps.herokuapp.com/">
                     <img alt='portfolio picture' class='portfolio-img' src='./assets/Doublejump.PNG'>
                 </a>
-                <a aria-label="View live application for Double Jump" target=“_blank” href="https://doublejumps.herokuapp.com/">
-                    <button class='project-button'>Live</button>
-                </a>
-                <a aria-label="View source code for Double Jump" target=“_blank” href="https://github.com/Mamckay/Michael-DoubleJump">
-                    <button class='project-button'>Source</button>
-                </a>
+                <div class='button-container'>
+                    <a aria-label="View live application for Double Jump" target=“_blank” href="https://doublejumps.herokuapp.com/">
+                        <button class='project-button'>Live</button>
+                    </a>
+                    <a aria-label="View source code for Double Jump" target=“_blank” href="https://github.com/Mamckay/Michael-DoubleJump">
+                        <button class='project-button'>Source</button>
+                    </a>
+                </div>
                 <h3 class='secondary-title'>What it does:</h3>
                 <p class='text'> An E-commerce marketplace for elecronic and accessories.</p>
                 <h3 class='secondary-title'>Tech Stack: </h3>
@@ -136,13 +140,15 @@
                 <h2 class='title inline-flex'>Champions</h2>
                 <a aria-label="Live link to Champions" target=“_blank” href='https://fytchampion.herokuapp.com/'>
                     <img alt='portfolio picture' class='portfolio-img' src='./assets/Champions.PNG'>
-                </a> 
-                <a aria-label="Live link to Champions" target=“_blank” href='https://fytchampion.herokuapp.com/'>
-                    <button class='project-button'>Live</button>
                 </a>
-                <a aria-label="View source code for Champions" target=“_blank” href='https://github.com/Mamckay/fyt-client'>
-                    <button class='project-button'>Source</button>
-                </a>
+                <div class='button-container'>
+                    <a aria-label="Live link to Champions" target=“_blank” href='https://fytchampion.herokuapp.com/'>
+                        <button class='project-button'>Live</button>
+                    </a>
+                    <a aria-label="View source code for Champions" target=“_blank” href='https://github.com/Mamckay/fyt-client'>
+                        <button class='project-button'>Source</button>
+                    </a>
+                </div>
                 <h3 class='secondary-title'>What it does:</h3>
                 <p class='text'> Track and set your workout goals to be a Champion! </p>
                 <h3 class='secondary-title'>Tech Stack: </h3>

@@ -19,7 +19,7 @@ yellow: 373d42
     bottom:0;
     width:100%;
     background-color: #373d42;
-    border-top: 4px solid #00F2FA;
+    border-top: 1px solid #00F2FA;
 }
 
 .contact-container{
@@ -52,22 +52,15 @@ html{
     font-size: 3vw;
     padding: 1vh;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top:5vh;
+    margin: 5% 15% 0;
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
 }
-/* 
-#portfolio-button:hover{
-    border: 4px solid #fff;
-    color: #fff;
-} */
 
 .text-left{
     color: white;
     font-size: 1.5vw;
-    margin-bottom: 4vh; 
+    margin-bottom: 2vh; 
     font-family: 'Raleway', sans-serif;
     text-align: left;
 }
@@ -90,22 +83,30 @@ html{
     margin: 1vh;
     width: 70%;
     max-width: 250px;
-    border: 4px solid #00F2FA;
+    border: 1px solid #00F2FA;
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
+}
+
+.button-container{
+    display: flex;
+    width: 100%;
+}
+.button-container a{
+    width: 100%;
 }
 
 .project-button{
-    margin: 1vh;
     min-width: 140px;
-    width: 10vw;
-    border: 4px solid #00F2FA;
-    color: #FFFFFF;
+    width: 100%;
+    border: 1px solid #00F2FA;
+    color: #373d42;
     font-family: 'Raleway', sans-serif;
+    border: 1px #FFFFFF solid;
 }
 
 .project-button:hover{
-    border: 4px solid #fff;
+    border: 1px solid #fff;
     color: #fff;
 
 }
@@ -117,7 +118,7 @@ select option{
 select{
     text-transform: uppercase;
     background-color: transparent;
-    border: 4px solid #00F2FA;
+    border: 1px solid #00F2FA;
     color: #FFFFFF;
     font-size: 30px;
     transition-duration: .5s;
@@ -125,8 +126,8 @@ select{
 
 button{
     text-transform: uppercase;
-    background-color: transparent;
-    border: 4px solid #00F2FA;
+    background-color: #00F2FA;
+    border: 1px solid #00F2FA;
     color: #FFFFFF;
     font-size: 30px;
     transition-duration: .5s;
@@ -146,18 +147,28 @@ button{
     position: fixed;
     top: 0;
     z-index: 2;
-    border-bottom: 4px solid #00F2FA;
+    border-bottom: 1px solid #00F2FA;
 }
 
 .spacer{
-   padding: 2vw;
+    border-radius: 10px;
+    border: 1px solid #7fd6d9;
+    padding: 1vw;
+    margin: 1vw;
 }
+
+.skills-container{
+    display:flex;
+    padding: 3%;
+    margin: 0 5%;
+    border-radius: 10px;
+    border: 1px solid #7fd6d9;
+}    
 
 .portfolio{
     display:flex;
-    padding: 3%;
-    margin: 5% 5% 5% 5%;
-    border: 2px solid #7fd6d9;
+    padding: 3% 0 10%;
+    margin: 0 5%;
     border-radius: 10px;
 }
 
@@ -172,21 +183,21 @@ button{
   }
 
 .title{
-    color: #FFFFFF;
+    color: #00F2FA;
     font-size: 3vw;
     text-align: center;
     margin-bottom: 4vh;
     margin-top: 1vh;
-    font-family: 'Josefin Sans Semibold', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .secondary-title{
-    color: #e4f500;
+    color: #00F2FA;
     font-size: 2vw;
     text-align: center;
     margin-bottom: 2vh;
     margin-top: 1vh;
-    font-family: 'Josefin Sans Semibold', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .text{
@@ -250,7 +261,7 @@ button{
     font-size: 2vw;
     text-align: center;
     transition: 0.3s;
-    font-family: 'Josefin Sans Semibold', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .hobbies{
@@ -307,27 +318,9 @@ a{
 }
 
 @media only screen and (max-width: 500px) {
-    .icon{
-        
-    }
-    .text{
-        top: 1vw;
-    }
+  
+    
 }
-
-/* @media only screen and (max-width: 1250px) {
-    .landing-text{
-        font-family: 'Raleway', sans-serif;
-        text-align: center;
-        color: white;
-        font-size: 3vw;
-        margin: 0 5% 0 5%;
-        padding: 1em;
-        background-color: #606a70;
-        opacity: 0.8;
-        border: 2px solid #7fd6d9;
-    }
-} */
 
 @media only screen and (max-width: 550px) {
     .contact-img{
@@ -338,26 +331,24 @@ a{
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1050px) {
     .footer-img{
-        width: 4rem;
+        width: 5rem;
     }
 
-    .project-button{
-        width: 40vw;
-    }
     .skills{
         flex-direction: column;
     }
     .skills-title{
-        font-size: 8vw;
+        font-size: 4rem;
     }
     .portfolio-title{
         font-size: 8vw;
     }
     .portfolio{
         display:block;
-        margin: 5% 5% 11vh 5%;
+        padding-bottom: 12vh;
+        margin: 5% 5% 0 5%;
     }
     
     .github{
@@ -381,18 +372,18 @@ a{
     }
 
     .text{
-    font-size: 6vw;
+    font-size: 1rem;
     margin:0;
     }
 
     .secondary-title{
-       font-size: 7.5vw;
+       font-size: 2rem;
     }
 }
 
 @media only screen and (max-width: 1220px) {
     .text-left{
-        font-size: 3vw;
+        font-size: 1rem;
         text-align: center;
     }
 
