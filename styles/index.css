@@ -222,6 +222,7 @@ button{
 
 .landing-text h2{
     font-size: 2vw;
+    margin: 5% 0 5% 0;
 }
 
 .flex-justify-center{
@@ -319,12 +320,15 @@ a{
     
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 650px) {
     .contact-img{
         margin-left:1.5vh;
         margin-right:1.5vh;
         margin-bottom:0;
         width: 3em;
+    }
+    .hobbies{
+        display:block;
     }
 }
 
@@ -387,8 +391,10 @@ a{
     .landing-text{
         width: 100%;
         margin: 0 5% 5% 5%;
-
+        background-color: #373d42;
+        opacity: .8; 
     }
+
     .landing-text h2{
         font-size: 1.5rem;
     }
