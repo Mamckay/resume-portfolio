@@ -16,13 +16,15 @@
     <main class='background'>
         <nav class='navbar'>
             <img alt='icon' class='icon' src='./assets/icon-large.PNG'>
-            <select aria-label="Site navigation select menu. Select the section of the site you wish to jump to." value="home" name="Navigator" id='portfolio-button' >
-                <option aria-label='Home' value="home">Home</option>
-                <option aria-label='Skills' value="skills">Skills</option>
-                <option aria-label='Portfolio' value="portfolio">Portfolio</option>
-            </select>
-            <!-- <button class='portfolio-button'>Portfolio</button> -->
+            <div aria-label="Site navigation select menu. Select the section of the site you wish to jump to." value="home" name="Navigator" >
+                <img alt='nav burger' className='nav-burger' src='./assets/hamburger.png' id='portfolio-button' />
+            </div>   
         </nav>
+        <div id='nav-link'>
+            <div class='nav-sub-link' id='home' aria-label='Home' value="home">Home</div>
+            <div class='nav-sub-link' id='skills' aria-label='Skills' value="skills">Skills</div>
+            <div class='nav-sub-link' id='portfolio' aria-label='Portfolio' value="portfolio">Portfolio</div>
+        </div>
         <section class='parallax'>
             <div class='landing-container'>
                 <h1 class='hidden-title'>About me</h1>
