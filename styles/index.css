@@ -109,7 +109,7 @@ html{
 }
 
 .icon{
-    height: 90px;
+    height: 80px;
 }
 
 .skills{
@@ -120,13 +120,16 @@ html{
 
 #portfolio-button{
     background-image: url();
-    width: 70%;
     max-width: 250px;
-    border: 1px solid #00F2FA;
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+
+#portfolio-button:hover{
+    cursor: pointer;
 }
 
 .button-container{
@@ -150,19 +153,6 @@ html{
     border: 1px solid #fff;
     color: #fff;
 
-}
-
-select option{
-    background:#373d42;
-}
-
-select{
-    text-transform: uppercase;
-    background-color: transparent;
-    border: 1px solid #00F2FA;
-    color: #FFFFFF;
-    font-size: 30px;
-    transition-duration: .5s;
 }
 
 button{
@@ -355,11 +345,6 @@ a{
     display:none;
 }
 
-@media only screen and (max-width: 500px) {
-  
-    
-}
-
 @media only screen and (max-width: 650px) {
     .contact-img{
         margin-left:1.5vh;
@@ -378,6 +363,8 @@ a{
     .small-nav{
         display: block;
     }
+
+   
 }
 
 @media only screen and (max-width: 1050px) {
