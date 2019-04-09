@@ -45,6 +45,15 @@ function setup() {
             $('#portfolio').on('click', event => {
                 window.scrollTo(0, $('.portfolio-title').position().top - 50);
             })
+            $('#big-home').on('click', event => {
+                window.scrollTo(0, 0);
+            })
+            $('#big-skills').on('click', event => {
+                window.scrollTo(0, $('.skills-title').position().top - 50);
+            })
+            $('#big-portfolio').on('click', event => {
+                window.scrollTo(0, $('.portfolio-title').position().top - 50);
+            })
         });
 
 

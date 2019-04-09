@@ -10,6 +10,23 @@ title color grey: 414042
 text color grey: 898989
 yellow: 373d42
 */
+
+.small-nav{
+    display:none;
+}
+
+.big-nav{
+    display: flex;
+    color:white;
+    font-size: 30px;
+    width:50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.big-nav div:hover{
+    cursor: pointer;
+}
+
 #nav-link{
     display: none;
     flex-direction: column;
@@ -353,11 +370,19 @@ a{
     .hobbies{
         display:block;
     }
+
+    .big-nav{
+        display: none;
+    }
+
+    .small-nav{
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 1050px) {
     .footer-img{
-        width: 5rem;
+        width: 4rem;
     }
 
     .skills{
